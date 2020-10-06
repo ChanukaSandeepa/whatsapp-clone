@@ -1,0 +1,110 @@
+.page  {
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+    background-color: rgb(241, 241, 241);
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-page {
+    background-color: white;
+    width: 40vw;
+    height: 70vh;
+    border-radius: 10px;
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+}
+
+.form-page > form > h2 {
+    color: blueviolet;
+    /* width: 100vw; */
+    padding: 20px;
+}
+
+.form-page > form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blueviolet; */
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    width: 100%;
+    
+    align-items: center;
+
+}
+
+.form-page > form > input {
+    padding: 10px;
+    outline-width: 0;
+    border-radius: 20px;
+    border-width: 1px;
+    border-color: blueviolet;
+    width: 80%;
+    text-align: center;
+    height: 5%;
+}
+
+.form-page > form > button {
+    display: none;
+}
+
+.submit-button {
+    width: 40%;
+    height: 10%;
+    background-color: blueviolet;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+}
+
+.submit-button:hover {
+    opacity: 0.8;
+}
+
+.image-container {
+    /* display: flex; */
+    /* background-color: cornflowerblue; */
+    width: 30%;
+    height: 35%;
+    /* background-color: red; */
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 100%;
+    /* padding: 5px; */
+    overflow: hidden;
+    
+}
+
+.image-container > img {
+    display: flex;
+    position: absolute;
+    width: 99%;
+    height: 99%;
+   
+    
+}
+
+.image-container > div {
+    position: absolute;
+    display: flex;
+    background-color: rgb(207, 207, 207);
+    width: 100%;
+    height: 30%;
+    opacity: 0.5;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.image-container > div:hover {
+    background-color: rgb(121, 118, 118);
+}

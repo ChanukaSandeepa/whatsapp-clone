@@ -1,0 +1,10 @@
+.page {
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    width: 50vw;
+    height: 70vh;
+    background-color: tomato;
+}

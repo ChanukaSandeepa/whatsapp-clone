@@ -1,0 +1,119 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    flex: 0.35;
+}
+
+.sidebar_header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-right: 1px solid lightgray;
+}
+
+.sidebar_headerRight {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 10vw;
+}
+
+.sidebar_headerRight > .MuiSvgIcon-root {
+    margin-right: 2vw;
+    font-size: 24px !important;
+}
+
+.sidebar_search {
+    display: flex;
+    align-items: center;
+    background-color: #f6f6f6;
+    height: 39px;
+    padding: 10px;
+}
+.sidebar_search_container {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    height: 35px;
+    border-radius: 20px;
+}
+
+.sidebar_search_container > .MuiSvgIcon-root {
+    color: gray;
+    padding: 10px;
+}
+
+.sidebar_search_container > input {
+    border: none;
+    margin-left: 10px;
+    outline-width: 0;
+}
+
+.sidebar_chats {
+    flex: 1;
+    background-color: white;
+    overflow: hidden;
+}
+
+.newContact {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+.newContactContent {
+ flex: 1;
+ justify-content: center;
+ align-items: center;
+ /* background-color: red; */
+ padding-top: 10px;
+}
+
+.newContactContent > span {
+    display: flex;
+    color: red;
+    justify-content: center;
+    
+}
+
+.newContactName {
+    width: 90%;
+    height: 5vh;
+    /* background-color: turquoise; */
+    border-width: 1px;
+    border-color: gray;
+    border-radius: 20px;
+    outline-width: 0;
+    text-align: center;
+}
+
+.saveContact {
+    display: flex;
+    padding: 10px;
+    background-color: blueviolet;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.saveContact > p {
+    color: white;
+}
+
+.saveContact:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.newContactBack {
+    display: flex;
+    /* background-color: red; */
+    width: 100%;
+}
